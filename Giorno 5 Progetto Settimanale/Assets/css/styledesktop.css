@@ -1,0 +1,124 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+#logo {
+  background-color: black;
+}
+#logo img {
+  width: 10%;
+  padding: 30px;
+}
+#testoprincipale {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  text-align: center;
+  padding: 7%;
+}
+h1,
+h3 {
+  color: #25a2c3;
+}
+#testoprincipale p {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65;
+  width: 48%;
+  margin: auto;
+  font-size: large;
+}
+h1,
+button,
+h3,
+h2 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+}
+button {
+  background-color: rgb(239, 78, 47);
+  color: white;
+  padding: 20px 35px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  margin: 50px;
+}
+#contenitore img {
+  float: left;
+  border-radius: 50%;
+  padding: 10%;
+}
+#contenitore {
+  width: 55%;
+  margin: auto;
+  padding: 100px;
+}
+#testo {
+  margin-top: 150px;
+}
+#testo p {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65;
+}
+#testimonianze {
+  background-color: #e22d0e;
+  color: white;
+  padding: 80px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+#mario {
+  font-size: large;
+  margin-bottom: 0;
+}
+#ceo {
+  font-size: smaller;
+  margin-top: 0;
+}
+#citazione {
+  font-size: large;
+}
+.a {
+  display: inline-block;
+  width: 27%;
+  margin: 30px;
+  text-align: center;
+  border: 1px solid #dee1e3;
+}
+.a img {
+  width: 100%;
+}
+#capo {
+  padding: 8%;
+}
+footer p {
+  
+  font-size: 20px;
+}
+footer {
+  background-color: #229fbb;
+  color: white;
+  padding: 30px;
+ 
+}
+a {
+    color: white;
+  }
+  
+  
+  #finepagina {
+    font-size: 18px;
+    margin: 40px;
+    padding-top: 20px;
+  }
+  #pie{
+   
+    width: 20%;
+    margin: auto;
+  }
+  #pie h2{
+    font-size: 40px;
+  }
+  .fa-square-up-right{
+    padding-bottom: 30px;
+  }
