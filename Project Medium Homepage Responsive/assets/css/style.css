@@ -1,0 +1,432 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+nav {
+  width: 100%;
+  background-color: rgb(255, 192, 23);
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  transition: background-color 0.3s ease-in-out;
+}
+.white-bg {
+    background-color: white ;
+}
+.green-button{
+    background-color: green;
+}
+#navbar {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: space-between;
+  padding: 20px;
+}
+ul li {
+  list-style-type: none;
+  margin-right: 15px;
+  font-size: 14px;
+}
+ul {
+  display: flex;
+  padding: 15px;
+}
+#navbardestra {
+  display: flex;
+}
+#navbardestra button {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding: 0px 20px;
+  height: 40px;
+}
+#background {
+  background-color: rgb(255, 192, 23);
+}
+
+#titolo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+hr {
+  margin: 0;
+  border: 1px solid black;
+}
+h2 {
+  font-size: 110px;
+  margin-bottom: 50px;
+  font-family: 'Spectral', sans-serif;
+  font-weight: 600;
+}
+#testotitolo {
+  margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 700px;
+}
+#testotitolo p {
+  margin-bottom: 40px;
+  font-size: 26px;
+  width: 80%;
+}
+#testotitolo button {
+  width: 200px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+#media {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.testimedia {
+  display: flex;
+
+  margin-bottom: 20px;
+  width: 33%;
+}
+
+.numero {
+  font-size: 30px;
+  margin-right: 20px;
+  color: rgba(239, 239, 240);
+  font-weight: bold;
+  width: 30px;
+}
+#trending {
+  width: 80%;
+  margin: auto;
+  margin-left: 280px;
+}
+#titolotrending {
+  font-weight: bold;
+  position: relative;
+  bottom: 8px;
+  padding-left: 10px;
+}
+#scrittatrending {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.nomeautore {
+  padding-top:10px;
+ 
+  font-size: 13px;
+  font-weight: bold;
+}
+.img-nomeautore{
+display: flex;
+padding-bottom: 15px;
+}
+.testo h4 {
+  padding-bottom: 15px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.data,
+.tempodilettura {
+  color: gray;
+  font-size: 14px;
+}
+.testo img {
+  width: 10%;
+  border-radius: 30px;
+  margin-right: 8px;
+}
+.testo {
+  flex-wrap: wrap;
+  width: 300px;
+}
+.spaziatura {
+  display: flex;
+  justify-content: space-between;
+}
+#contenitorearticoli {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-left: 280px;
+}
+.articolo {
+  display: flex;
+  margin-bottom: 70px;
+}
+.rigagrigia {
+  height: 2px;
+  background-color: rgba(239, 239, 240);
+  border: none;
+  margin-bottom: 40px;
+  margin-top: 60px;
+}
+article {
+  flex-basis: 52%;
+  margin-right: 80px;
+}
+#aside {
+  flex-basis: 30%;
+  position: sticky;
+  top: 125px;
+  height: 100%;
+}
+.testoarticolo img {
+  border-radius: 20px;
+  width: 5%;
+}
+.testoarticolo h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.testoarticolo p {
+  color: gray;
+  margin-bottom: 10px;
+  font-size: 17px;
+  padding: 5px;
+}
+.immagine img {
+  width: 220px;
+  height: 150px;
+}
+.ma {
+  position: relative;
+  float: right;
+  right: 10px;
+}
+.cerchiato {
+  background-color: rgba(239, 239, 240);
+  border-radius: 10px;
+  padding: 4px;
+}
+.testoarticolo {
+  width: 100%;
+  margin-right: 40px;
+}
+.discover {
+  border: 1px solid gray;
+  color: gray;
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 10px;
+}
+#asideflex {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+footer span {
+  margin-right: 25px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: gray;
+}
+g{
+    animation: fadeInOut 6s  infinite;
+}
+@keyframes fadeInOut {
+    0% { opacity: 0; }
+    20% { opacity: 0; }
+    35%{opacity: 1;}
+    50%{opacity: 1;}
+    65%{opacity: 1;}
+    80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@media screen and (max-width:1400px) {
+  h2{
+    font-size: 90px;
+  }
+}
+@media screen and (max-width:1200px) {
+    #trending , #contenitorearticoli{
+        margin-left: 0px;
+        margin: auto;
+    }
+    article{
+        flex-basis: 70%;
+    }
+    h2{
+      font-size: 70px;
+      padding-top: 20px;
+      margin-bottom: 20px;
+    }
+    #testotitolo{
+      margin-left: 60px;
+      width: 900px;
+    }
+    #testotitolo p{
+      font-size: 24px;
+    }
+    svg{
+      width: 20%;
+    }
+    #navbar{
+      margin-left: 60px;
+    }
+    .testo img{
+      padding-bottom: 10px;
+    }
+   
+}
+@media screen and (max-width:800px) {
+   #navbar{
+    width: 90%;
+   }
+    #titolo{
+        margin-top: 80px;
+        height: 300px;
+    }
+    h2{
+        padding-top: 40px;
+        font-size: 60px;
+        margin-bottom: 10px;
+    }
+    #testotitolo{
+        flex-basis: 60%;
+        margin-left: 40px;
+    }
+    #animazioni{
+        flex-basis: 40%;
+    }
+    #testotitolo p{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    #testotitolo button{
+        width: 130px;
+    }
+    #trending{
+        flex-wrap: wrap;
+    }
+    .testimedia{
+    width: 50%;
+    }
+    #contenitorearticoli{
+      flex-wrap: wrap;
+    }
+    article{
+      order: 2;
+      flex-basis: 100%;
+      margin-right: 0;
+    }
+    .articolo{
+      flex-basis: 100%;
+      
+    }
+    #aside{
+      order: 1;
+     flex-basis: 100%;
+     position: inherit;
+     flex-direction: row ;
+      padding-bottom: 20px;
+    }
+    #asideflex{
+      flex-basis: 100%;
+    }
+   .discover{
+    padding: 5px;
+    font-size: 14px;
+   }
+    footer span{
+      font-size: 14px;
+    }
+   .rigagrigia{
+    margin-top:30px ;
+    margin-bottom: 20px;
+   } 
+  
+}
+@media screen and (max-width:580px) {
+     ul li:nth-child(-n+3){
+        visibility: hidden;
+    }
+   ul li {
+    width: 50px;
+   }
+   ul{
+    padding-left: 0px;
+   }
+   h2{
+    margin-top: 50px;
+    width: 100%;
+    padding-top: 40px;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+#testotitolo{
+    flex-basis: 80%;
+} #animazioni{
+    flex-basis: 0%;
+}
+#testotitolo button{
+    margin-top: 20px;
+   margin-bottom: 60px;
+}
+#testotitolo p{
+    font-size: 20px;
+}
+#contenitorearticoli{
+  width: 90%;
+}
+
+    #trending{
+        width: 100%;
+        flex-direction: column;
+    }
+    #media{
+        width: 500px;
+    }
+    .testimedia{
+        width: 100%;
+    }
+    #navbar{
+      padding: 0;
+      margin: 0;
+    }
+    #titolo{ 
+      padding-top: 30px;
+      
+      margin-top: 0;
+    }
+   #bottone{
+    margin-top: 5px;
+    width: 110px;
+   }
+   #titolo button{
+    padding:10px 20px;
+    width: 160px;
+   }
+   .testo{
+    width: 100%;
+   }
+   .discover{
+    font-size: 14px;
+    margin: 5px 7px; 
+   }
+   footer span {
+    margin-right: 24px;
+    margin-bottom: 10px;
+   }
+   .testoarticolo{
+    width: 60%;
+    margin-right: 5px;
+   }
+   .immagine{
+    width: 40%;
+   }
+   .immagine img{
+    width: 100%
+   }
+   
+}
