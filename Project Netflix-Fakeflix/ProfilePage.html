@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/ProfilePage.css">
+</head>
+<body class="bg-dark">
+   <header >
+    <div class="container-fluid mb-5 ">
+        <a href="HomePage.html"><img src="assets/img/Fakeflix1.png" alt="fakeflix_logo" width="8%"></a>
+    </div>
+   </header>
+   <br>
+   <main class="my-5">
+    <div class="container-fluid ">
+        <div class="w-50 m-auto">
+            <h1 class="display-1 text-white fw-bold">Edit Profile</h1>
+            <hr class="text-white">
+            <div class="row">
+                <div class="col-3 me-2">
+                    <img src="assets/img/avatar.png" alt="avatar" class="img-fluid " >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-pencil-square centraicons  " viewBox="0 0 16 16">
+                        <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                        <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"/>
+                      </svg>
+                </div>
+                <div class=" col-7">
+                    <div class="col bg-secondary text-white p-2 h3 mb-5">Strive Student</div>
+                    <div class="col text-secondary mb-2 h4">Language:</div>
+                    <div class="dropdown mb-4">
+                        <button class="btn bg-black text-white border border-white dropdown-toggle  px-2 rounded-0" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          <span class="pe-4 ">English</span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item " href="#">Italian</a></li>
+                          <li><a class="dropdown-item " href="#">French</a></li>
+                          <li><a class="dropdown-item" href="#">Chinese</a></li> 
+                        </ul>
+                        </div>
+                        <hr class="text-white my-4">
+                        <div class="text-secondary my-2 h4">Maturity Settings:</div>
+                        <div class="text-white bg-secondary col-4 my-3 p-1">ALL MATURITY RATINGS</div>
+                        <div class="text-white my-3">Show titles of <span class="fw-bold">all maturity ratings</span> for this profile.</div>
+                        <div class="col-2 text-center my-3"><div class="text-secondary border border-secondary p-2">EDIT</div></div>
+                        <hr class="text-white my-4">
+                        <div class="h4 text-secondary">Autplay Controls</div>
+                        <div class="row mb-2">
+                            <div class="col-1"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-check-square" viewBox="0 0 16 16">
+                                <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                                <path d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.235.235 0 0 1 .02-.022z"/>
+                              </svg></div>
+                            <div class=" col-10 text-white">Autoplay next episode in a series on all devices.</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-check-square" viewBox="0 0 16 16">
+                                <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                                <path d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.235.235 0 0 1 .02-.022z"/>
+                              </svg></div>
+                            <div class=" col-10 text-white">Autoplay previews while browsing on all devices.</div>
+                        </div>
+                </div>
+                <hr class="text-white my-4">
+            </div>
+            <div class="row text-secondary">
+                <div class="col-2 border border-secondary bg-white p-3 text-center h4 text-dark">SAVE</div>
+                <div class="offset-1 col-3 border border-secondary p-3 text-center h4">CANCEL</div>
+                <div class="offset-1 col-4 border border-secondary p-3 text-center h4">DELETE PROFILE</div>
+            </div>
+        </div>    
+
+    </div>
+   </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
+
+  
