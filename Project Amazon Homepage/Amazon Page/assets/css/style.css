@@ -76,9 +76,11 @@ h4 {
 }
 #perfectGift img {
   border-radius: 20px;
-  background-size: contain;
   width: 100%;
+  background-size: contain;
   height: 50vh;
+  object-fit: cover;
+  background-position: center center;
   box-shadow: 5px 5px rgba(190, 190, 190, 0.1);
   margin-bottom: 20px;
 }
