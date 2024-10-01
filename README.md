@@ -2,11 +2,11 @@
 <div style="display-flex;">
     <div style="width:45%">
         <h3>My Project</h3>
-        <img src="./Project Amazon Homepage/Amazon Page/assets/images/My Amazon Homepage.png" />
+        <img src="./Project Amazon Homepage/Amazon Page/assets/images/My Amazon Homepage.png" style="width:45%"/>
     </div>
     <div style="width:45%">
         <h3>Mockup:</h3>
-        <img src="./Project Amazon Homepage/Amazon Page/mockup.jpg"/>
+        <img src="./Project Amazon Homepage/Amazon Page/mockup.jpg" style="width:45%"/>
     </div>
 </div>
 <h2>Me
