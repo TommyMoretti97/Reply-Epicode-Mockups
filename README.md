@@ -19,6 +19,6 @@
 <h2>Old Epicode Website reply mockup</h2>
     La prima immagine è il progetto da me creato la seconda immagine è il mockup da replicare
     <div style="display: flex;">    
-        <img src="./Project Old Epicode Website/Assets/images/My Epicode project.png" width="45%"/>
+        <img src="./Project Old Epicode Website/Assets/images/My-Epicode-project.png" width="45%"/>
         <img src="./Project Old Epicode Website/Assets/Mockups/layout-desktop.png" width="45%" />
     </div>           
