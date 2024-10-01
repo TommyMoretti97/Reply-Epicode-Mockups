@@ -9,4 +9,6 @@
         <img src="./Project Amazon Homepage/Amazon Page/mockup.jpg" style="width:45%"/>
     </div>
 </div>
-<h2>Me
+| My Project | Mockup |
+|------------|--------|
+| ![My Project](./Project Amazon Homepage/Amazon Page/assets/images/My Amazon Homepage.png) | ![Mockup](./Project Amazon Homepage/Amazon Page/mockup.jpg) |
