@@ -1,14 +1,10 @@
 <h2>Amazon Homepage reply Mockup:</h2>
-<div style="display: flex; justify-content: space-between;">
-    <div style="width:45%">
+    <div>
         <h3>My Project</h3>
-        <img src="./Project Amazon Homepage/Amazon Page/assets/images/My Amazon Homepage.png" style="width:45%"/>
+        <img src="./Project Amazon Homepage/Amazon Page/assets/images/My Amazon Homepage.png" />
     </div>
-    <div style="width:45%">
+    <div>
         <h3>Mockup:</h3>
-        <img src="./Project Amazon Homepage/Amazon Page/mockup.jpg" style="width:45%"/>
+        <img src="./Project Amazon Homepage/Amazon Page/mockup.jpg" />
     </div>
-</div>
-| My Project | Mockup |
-|------------|--------|
-| ![My Project](./Project Amazon Homepage/Amazon Page/assets/images/My Amazon Homepage.png) | ![Mockup](./Project Amazon Homepage/Amazon Page/mockup.jpg) |
+
