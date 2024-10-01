@@ -22,3 +22,4 @@
         <img src="./Project Old Epicode Website/Assets/images/My-Epicode-project.png" width="45%"/>
         <img src="./Project Old Epicode Website/Assets/Mockups/layout-desktop.png" width="45%" />
     </div>           
+Tranne il progetto Amazon homepage, tutti gli altri progetti hanno dei mockup in versione tablet e mobile. Se vuoi controllare la responsività dei miei progetti scarica pure i file e controlla i mockup e i comportamenti della mia pagina in modalita responsive
